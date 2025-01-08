@@ -77,6 +77,11 @@ where numbers = 2;
 SELECT name,id FROM Customers
 group by name;
 
+select sum(salary) from Employees;
+select avg(salary) from Employees;
+select max(salary) from Employees;
+select concat(fname,company) from Employees;
+
 select * from Employees
 inner join Customers
 on Customers.id = Employees.numbers;
