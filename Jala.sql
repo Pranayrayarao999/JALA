@@ -83,6 +83,15 @@ select max(salary) from Employees;
 select concat(fname,company) from Employees;
 
 select * from Employees
+where Not company = "LG";
+
+SELECT * FROM EMPLOYEES
+where company = "LG" Or company = "Samsung";
+
+select * from Employees
+where company = "LG" and salary > 10000;
+
+select * from Employees
 inner join Customers
 on Customers.id = Employees.numbers;
 
