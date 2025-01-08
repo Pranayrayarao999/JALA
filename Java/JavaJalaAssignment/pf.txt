@@ -1,0 +1,5 @@
+#This is a sample properties file
+#Wed Jan 08 16:38:29 IST 2025
+College=GNIT
+E.no=379
+Name=Pranay
